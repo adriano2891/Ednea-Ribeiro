@@ -35,3 +35,20 @@ html {
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(163, 58, 86, 0.4);
 }
+
+/* Ocultar badge flutuante "Powered by Netlify" e widgets injetados */
+#netlify-badge,
+.netlify-badge,
+[class*="netlify-badge"],
+[class*="netlify-drawer"],
+[data-netlify-badge],
+iframe[title*="Netlify" i],
+iframe[src*="netlify" i],
+div:has(> a[href*="netlify.com"]),
+a[href*="netlify.com"][style*="position"],
+div[style*="z-index"][style*="position: fixed"] a[href*="netlify.com"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
