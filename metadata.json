@@ -1,0 +1,6 @@
+{
+  "name": "Ednea Ribeiro · Estética & Unhas no Porto",
+  "description": "Estética e cuidados de beleza no Porto. Manicure, pedicure, unhas de gel, sobrancelhas e depilação. Atendimento no espaço da Rua de Costa Cabral ou ao domicílio.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

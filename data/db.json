@@ -1,0 +1,183 @@
+{
+  "services": [
+    {
+      "id": "manicure",
+      "name": "Manicure",
+      "category": "Unhas",
+      "description": "Cuidado completo, tratamento das cutículas, limagem e esmaltação cuidada.",
+      "price": null,
+      "durationMinutes": 45,
+      "active": true,
+      "notes": "Valor sob consulta ou definido no atendimento."
+    },
+    {
+      "id": "pedicure",
+      "name": "Pedicure",
+      "category": "Pés",
+      "description": "Higienização, remoção de asperezas, corte técnico e embelezamento dos pés.",
+      "price": null,
+      "durationMinutes": 50,
+      "active": true,
+      "notes": "Valor sob consulta ou definido no atendimento."
+    },
+    {
+      "id": "unhas-gel",
+      "name": "Unhas de Gel",
+      "category": "Unhas",
+      "description": "Aplicação, extensão ou manutenção de gel com alta durabilidade e acabamento refinado.",
+      "price": null,
+      "durationMinutes": 90,
+      "active": true,
+      "notes": "Valor sob consulta ou definido no atendimento."
+    },
+    {
+      "id": "sobrancelhas",
+      "name": "Sobrancelhas",
+      "category": "Rosto",
+      "description": "Design e definição precisa adaptada à harmonia natural do seu rosto.",
+      "price": null,
+      "durationMinutes": 30,
+      "active": true,
+      "notes": "Valor sob consulta ou definido no atendimento."
+    },
+    {
+      "id": "depilacao-brasileira",
+      "name": "Depilação Brasileira",
+      "category": "Corpo",
+      "description": "Técnica cuidada com cera de alta qualidade, garantindo conforto e suavidade na pele.",
+      "price": null,
+      "durationMinutes": 45,
+      "active": true,
+      "notes": "Valor sob consulta ou definido no atendimento."
+    }
+  ],
+  "bookings": [
+    {
+      "id": "bk_1791024450017_qacq",
+      "reference": "ER-2880",
+      "serviceId": "unhas-gel",
+      "serviceName": "Unhas de Gel",
+      "clientName": "Francisca Costa",
+      "clientPhone": "915 444 333",
+      "locationType": "home",
+      "clientAddress": "Rua de Santa Catarina, 250, 2º Dir, Porto",
+      "date": "2026-10-06",
+      "time": "10:00",
+      "durationMinutes": 90,
+      "notes": "Atendimento em casa",
+      "status": "pending",
+      "createdAt": "2026-10-03T10:47:30.017Z",
+      "updatedAt": "2026-10-03T10:47:30.017Z"
+    },
+    {
+      "id": "bk_1791022234108_uuki",
+      "reference": "ER-7016",
+      "serviceId": "manicure",
+      "serviceName": "Manicure",
+      "clientName": "Joana Ferreira",
+      "clientPhone": "918 765 432",
+      "date": "2026-10-05",
+      "time": "10:00",
+      "durationMinutes": 45,
+      "notes": "Primeira vez no espaço da Costa Cabral",
+      "status": "confirmed",
+      "createdAt": "2026-10-03T10:10:34.108Z",
+      "updatedAt": "2026-10-03T10:10:43.105Z"
+    },
+    {
+      "id": "seed-1",
+      "reference": "ER-4091",
+      "serviceId": "unhas-gel",
+      "serviceName": "Unhas de Gel",
+      "clientName": "Carla Moreira",
+      "clientPhone": "912 345 678",
+      "date": "2026-10-04",
+      "time": "10:00",
+      "durationMinutes": 90,
+      "notes": "Manutenção de gel tom rosa clássico",
+      "status": "confirmed",
+      "createdAt": "2026-10-03T10:10:26.824Z",
+      "updatedAt": "2026-10-03T10:10:26.824Z"
+    },
+    {
+      "id": "seed-2",
+      "reference": "ER-4092",
+      "serviceId": "pedicure",
+      "serviceName": "Pedicure",
+      "clientName": "Sofia Andrade",
+      "clientPhone": "931 876 543",
+      "date": "2026-10-04",
+      "time": "14:30",
+      "durationMinutes": 50,
+      "notes": "Primeira visita no espaço da Costa Cabral",
+      "status": "pending",
+      "createdAt": "2026-10-03T10:10:26.824Z",
+      "updatedAt": "2026-10-03T10:10:26.824Z"
+    }
+  ],
+  "settings": {
+    "adminPin": "ednea2026",
+    "salonInfo": {
+      "name": "Ednea Ribeiro (Neia Ribeiro)",
+      "owner": "Ednea Ribeiro",
+      "address": "Rua de Costa Cabral, 416, Porto",
+      "phone": "914 231 627",
+      "whatsapp": "351914231627",
+      "instagram": "https://www.instagram.com/neiaribeiroesteticista_pt",
+      "timezone": "Europe/Lisbon"
+    },
+    "workingHours": {
+      "segunda": {
+        "open": "09:00",
+        "close": "19:00",
+        "active": true
+      },
+      "terca": {
+        "open": "09:00",
+        "close": "19:00",
+        "active": true
+      },
+      "quarta": {
+        "open": "09:00",
+        "close": "19:00",
+        "active": true
+      },
+      "quinta": {
+        "open": "09:00",
+        "close": "19:00",
+        "active": true
+      },
+      "sexta": {
+        "open": "09:00",
+        "close": "19:00",
+        "active": true
+      },
+      "sabado": {
+        "open": "09:00",
+        "close": "18:00",
+        "active": true
+      },
+      "domingo": {
+        "open": "09:00",
+        "close": "18:00",
+        "active": false
+      }
+    },
+    "lunchBreak": {
+      "start": "13:00",
+      "end": "14:00",
+      "enabled": true
+    },
+    "slotIntervalMinutes": 30,
+    "daysOff": [],
+    "blockedSlots": [],
+    "promoInfo": {
+      "enabled": false,
+      "title": "Campanha Especial de Estética",
+      "price": 35,
+      "description": "Promoção a aguardar confirmação de condições pela profissional.",
+      "conditions": "Sob validação presencial no espaço.",
+      "confirmedByProfessional": false
+    }
+  }
+}
